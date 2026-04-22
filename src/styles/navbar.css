@@ -136,7 +136,7 @@ li{
         display: block;
         z-index: 9999;
         position: fixed;
-        background: url('D:\cyberspire\client\cyberspire\public\assets\menu.png');
+        background: url('../assets/menu.png');
         background-repeat: no-repeat;
         border: 0;
         top: 27px;
@@ -149,7 +149,7 @@ li{
         transform: translateX(0%);
     }
     .mobile-toggle[aria-expanded="true"]{
-        background: url('D:\cyberspire\client\cyberspire\public\assets\close.png');
+        background: url('../assets/close.png');
         z-index: 9999;
         position: fixed;
         background-repeat: no-repeat;
