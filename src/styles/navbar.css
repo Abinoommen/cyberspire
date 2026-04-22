@@ -58,7 +58,7 @@ li{
 }
 
 .first{
-    background-image: url('D:\cyberspire\client\cyberspire\public\assets\1.png');
+    background-image: url('../assets/1.png');
     height: 103vh;
     background-repeat: no-repeat;
     background-position: center;

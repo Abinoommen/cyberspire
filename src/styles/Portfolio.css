@@ -4,7 +4,7 @@
   
  
   .portfolio{
-    background: url("D:\cyberspire\client\cyberspire\public\assets\4.png");
+    background-image: url('../assets/4.png');
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
