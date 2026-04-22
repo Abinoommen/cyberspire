@@ -1,0 +1,11 @@
+.scrollup{
+    position: fixed;
+    bottom : 40px;
+right : 10px;
+z-index: 99999;
+
+cursor: pointer;
+transition: 2s;
+
+
+}

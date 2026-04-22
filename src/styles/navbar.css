@@ -1,0 +1,163 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    flex-wrap: inherit;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    transition: 0.2s background-color;
+    z-index: 9999;
+}
+.navbar1{
+    display: flex;
+    position: fixed;
+    flex-wrap: inherit;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    z-index: 9999;
+    background-color: rgb(67, 67, 67);
+}
+.texts{
+    height: auto;
+}
+
+.ultexts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+}
+
+.ultexts , li{
+    cursor: pointer;
+}
+.ftext{
+    width: 80%;
+}
+
+.stext{
+    padding-top: 50px;
+    
+}
+ 
+li{
+    list-style: none;
+    font-size:small ;
+    color: rgb(255, 255, 255);
+}
+
+.imglogo{
+    height: 116px;
+    width: 122px;
+}
+
+.first{
+    background-image: url('D:\cyberspire\client\cyberspire\public\assets\1.png');
+    height: 103vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.writing{
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 25px;
+}
+.mobile-toggle{
+    display: none;
+}
+.flexdirection{
+ display: flex;
+ flex-direction: column;
+ gap: 18px;
+}
+
+
+.contact-btn{
+    background-color:#38B6FF;
+     border-radius:20px;
+      padding:10px;
+      transition: .1s transform ;
+      animation: example 1300ms infinite;;
+}
+@keyframes example {
+    0% {
+        transform: scale(1.2);
+        
+      }
+      
+    100% {
+        background-color: #00a6ff;
+        transform: scale(1);
+      }
+  }
+
+
+
+:hover.contact-btn{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media(max-width: 774px){
+    .ultexts{
+        position: fixed;
+        inset: 0 0 0 30%;
+        flex-direction: column;
+        background: hsl(0 0% 100%/0.1);
+        backdrop-filter: blur(0.5em);
+        transform: translateX(100%);
+        transition: transform 300ms ease-out;
+        z-index: 999;
+        
+       }
+
+
+       .navbar{
+        justify-content: center;
+       }
+       .navbar1{
+        justify-content: center;
+       }
+       li{
+        color: black;
+        padding: 10px;
+       }
+
+    .mobile-toggle{
+        display: block;
+        z-index: 9999;
+        position: fixed;
+        background: url('D:\cyberspire\client\cyberspire\public\assets\menu.png');
+        background-repeat: no-repeat;
+        border: 0;
+        top: 27px;
+    width: 3rem;
+    aspect-ratio: 1;
+    right: 13px;
+        cursor: pointer;
+    }
+    .ultexts[data-visible="true"]{
+        transform: translateX(0%);
+    }
+    .mobile-toggle[aria-expanded="true"]{
+        background: url('D:\cyberspire\client\cyberspire\public\assets\close.png');
+        z-index: 9999;
+        position: fixed;
+        background-repeat: no-repeat;
+        border: 0;
+        top: 27px;
+    width: 3rem;
+    aspect-ratio: 1;
+    right: 13px;
+        cursor: pointer;
+    }
+}

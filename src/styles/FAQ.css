@@ -1,0 +1,40 @@
+.FAQ{
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 10px;
+    flex-direction: column;
+    
+}
+.accordian-body{
+    width: auto;
+}
+.flexx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.firstfaq{
+    width: 50%;
+    
+}
+.secondfaq{
+    width: 50%;
+}
+
+@media(max-width:768px){
+    .flexx{
+        flex-direction: column;
+        display: block;
+        padding: 0;
+    }
+    .firstfaq ,.secondfaq{
+        width: 100%;
+        padding: 0px;
+    margin: 0px;
+    }
+}

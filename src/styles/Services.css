@@ -1,0 +1,33 @@
+.Services{
+    padding: 50px;
+    background-color: #F6F6F6;
+    
+}
+.cards{
+    background-color: #000000;
+    border-radius: 20px;
+    transition: 0.3s transform;
+    
+}
+
+.hh{
+    color: white;
+    text-align: center;
+}
+.Alldata{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ff{
+    width: 70%;
+}
+
+:hover.cards{
+    transform: scale(1.01);
+}
+@media(max-width:990px){
+    .ff{
+        width: 100%;
+    }
+}

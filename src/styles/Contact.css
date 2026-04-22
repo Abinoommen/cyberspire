@@ -1,0 +1,97 @@
+.contact{
+    height:auto;
+    color: blue;
+}
+.fll{
+    display: flex;
+    flex-direction: column;
+}
+.piccs{
+    display: flex;
+    gap: 20px;
+}
+.piccs > img{
+    width: 24px;
+    height: 24px;
+}
+
+.allthings{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+    
+}
+
+.contact-tab{
+    
+    padding: 89px;
+    margin: 10px;
+    color: rgb(59, 59, 59);
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 5px, transparent 5px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 5px, transparent 5px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 5px, transparent 5px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 5px, transparent 5px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
+    linear-gradient(90deg, #000000 0%, #000000 14%, transparent 100%);
+
+}
+
+.twobox{
+    width: 47%;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: white;
+    margin: 10px; 
+}
+.fff{
+    display: flex;
+}
+.otherbox{
+    width:-webkit-fill-available;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: white;
+    margin: 10px;
+    
+}
+
+.writing-area{
+    padding: 89px;
+    margin: 10px;
+    background-color: #f6f6f6;
+    display: flex;
+   border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 5px, transparent 5px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 5px, transparent 5px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 5px, transparent 5px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 5px, transparent 5px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
+            linear-gradient(90deg, transparent 0%, #000000 89%);
+
+}
+.sub{
+    background-color: #7681F4;
+    color: white;
+    border-width: 0;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 29px;
+    width: 100px;
+    }
+@media(max-width:780px){
+    .allthings{
+        flex-direction: column-reverse;
+    }
+}
+@media(max-width:590px){
+    .allthings{
+        padding: px;
+    }
+}

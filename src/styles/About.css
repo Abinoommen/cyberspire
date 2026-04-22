@@ -1,0 +1,45 @@
+.contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.who{
+    background-color:#1B4375 ;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    width: 37%;
+}
+
+.About{
+    height: 100vh;
+padding: 50px;
+background-color: white;
+    
+}
+
+@media(max-width:990px) {
+    .contents{
+        flex-direction: column-reverse;
+    }
+    .About{
+        height: auto;
+    }
+    .who{
+        width: 50%;
+    }
+}
+
+@media (max-width:650px) {
+    .who{
+        width: 100%;
+    }
+    .About{
+        padding: 20px;
+    }
+    .image-who{
+        width: 80%;
+    }
+    
+}
